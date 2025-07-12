@@ -6,7 +6,7 @@ import google.generativeai as genai
 import edge_tts  # 用於語音播放
 
 # 初始化 Gemini Flash 模型
-genai.configure(api_key="AIzaSyBwbqy85wGVIN2idVvAmkL9ecnqwo-bDdc")
+genai.configure(api_key="金鑰")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 ITEMS_FILE = "items.json"
